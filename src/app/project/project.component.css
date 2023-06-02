@@ -1,0 +1,53 @@
+.projects {
+  border-radius: var(--rounded);
+  background-color: var(--gray-color);
+  padding: 1rem;
+  width: 100%;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.image {
+  width: 100%;
+  padding: 1rem;
+  border-radius: var(--rounded);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.wrapper a {
+  overflow: hidden;
+  border-radius: var(--rounded);
+}
+
+@media (min-width: 640px) {
+  .projects h2 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .image {
+    height: 100%;
+  }
+
+  .wrapper a {
+    max-width: 20rem;
+    max-height: 20rem;
+  }
+}

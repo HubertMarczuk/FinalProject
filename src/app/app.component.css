@@ -1,0 +1,49 @@
+.nav-mobile {
+  display: block;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1400px) {
+  .box-3 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .element-1 {
+    grid-column: span 2;
+  }
+
+  .element-2 {
+    grid-column: span 3;
+  }
+
+  .box-2 {
+    max-height: 35.5rem;
+  }
+
+  .box-1 {
+    display: grid;
+    grid-template-columns: 50rem 1fr;
+    gap: 1rem;
+  }
+
+  .nav-mobile {
+    display: none;
+  }
+
+  .nav-desktop {
+    display: block;
+  }
+}

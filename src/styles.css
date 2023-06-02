@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-color: #0f0f0f;
+  --gray-color: #1e1b1e;
+  --green: #00c39a;
+  --orange: #ffc03c;
+  --red: #fe6d79;
+  --purple: #8325fd;
+  --font-color: #fff;
+  --rounded: 1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 1rem;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+.container-global {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 1rem;
+}

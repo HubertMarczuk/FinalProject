@@ -1,0 +1,36 @@
+.about {
+  border-radius: var(--rounded);
+  background-color: var(--gray-color);
+  padding: 1rem;
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .about h2 {
+    font-size: 3rem;
+  }
+
+  .about p {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about p {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  .about p:last-child {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    margin-bottom: 0rem;
+  }
+}
