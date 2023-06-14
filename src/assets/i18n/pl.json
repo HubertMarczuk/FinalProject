@@ -1,0 +1,33 @@
+{
+  "about": {
+    "title": "O mnie",
+    "p1": "Witam w moim portfolio! Jestem zapalonym programistą specjalizującym się w programowaniu backendowym w Pythonie i C#. Dzięki bogatemu doświadczeniu w Pythonie i C# opracowałem solidne systemy backendowe dla różnych projektów.",
+    "p2": "Python jest moim ulubionym językiem do tworzenia aplikacji ze względu na swoją prostotę i wszechstronność. Wykorzystuję jego mocne strony i rozbudowane biblioteki do tworzenia skalowalnego i łatwego w utrzymaniu kodu.",
+    "p3": "Oprócz Pythona, mam szeroką wiedzę o C# w programowaniu backendu. Zapraszam do zapoznania się z moim portfolio i przykładowymi realizacjami. Stwórzmy razem coś niesamowitego!"
+  },
+  "cookie": {
+    "p": "Strona korzysta z plików cookie, aby zapewnić lepszą obsługę użytkownika",
+    "button1": "Akceptuj",
+    "button2": "Odrzuć"
+  },
+  "header": {
+    "motto": "Zrozum logikę, zrozum kod",
+    "info1": "języki programowania",
+    "info2": "projekty",
+    "info3": "rok studiów informatycznych"
+  },
+  "navigation": {
+    "link1": "Zrozum logikę, zrozum kod",
+    "link2": "Social media",
+    "link3": "O mnie",
+    "link4": "Projekty internetowe"
+  },
+  "project": {
+    "title": "Projekty internetowe"
+  },
+  "social": {
+    "name": "Imię:",
+    "base": "Zamieszkały:",
+    "city": "Warszawa"
+  }
+}

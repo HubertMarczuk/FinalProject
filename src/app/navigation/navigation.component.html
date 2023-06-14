@@ -1,7 +1,7 @@
 <div class="container-global">
   <nav class="nav">
     <h1>Hubert Marczuk</h1>
-    <button type="button" class="burger">
+    <button type="button" class="burger" (click)="toggleMenu()">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="35"
@@ -16,5 +16,50 @@
         />
       </svg>
     </button>
+    <div class="languages-desktop">
+      <button
+        class="btnlan"
+        *ngFor="let language of languagesList; index as i"
+        (click)="changeLanguage(language.code)"
+      >
+        <span> {{ language.shorthand }} </span>
+      </button>
+    </div>
   </nav>
+</div>
+<div class="backdrop" [ngClass]="{ show: show }">
+  <button class="close-menu" (click)="toggleMenu()">X</button>
+  <ul class="menu" (click)="closeMenu($event)">
+    <li>
+      <a class="link" href="#header" *transloco="let t">{{
+        t("navigation.link1")
+      }}</a>
+    </li>
+    <li>
+      <a class="link" href="#social" *transloco="let t">{{
+        t("navigation.link2")
+      }}</a>
+    </li>
+    <li>
+      <a class="link" href="#about" *transloco="let t">{{
+        t("navigation.link3")
+      }}</a>
+    </li>
+    <li>
+      <a class="link" href="#projects" *transloco="let t">{{
+        t("navigation.link4")
+      }}</a>
+    </li>
+    <li>
+      <div class="languages-mobile">
+        <button
+          class="btnlan"
+          *ngFor="let language of languagesList; index as i"
+          (click)="changeLanguage(language.code)"
+        >
+          <span> {{ language.shorthand }} </span>
+        </button>
+      </div>
+    </li>
+  </ul>
 </div>

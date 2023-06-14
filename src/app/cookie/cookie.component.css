@@ -1,0 +1,40 @@
+.modal {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: none;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+.modal button {
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: var(--rounded);
+}
+
+.modal p {
+  font-size: 1rem;
+}
+
+.modal .buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.modal .buttons button:hover {
+  background-color: black;
+}
+
+.show {
+  display: flex;
+}

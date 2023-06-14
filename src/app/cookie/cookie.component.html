@@ -1,0 +1,11 @@
+<div class="modal" [ngClass]="{ show: show }">
+  <p *transloco="let t">{{ t("cookie.p") }}</p>
+  <div class="buttons">
+    <button (click)="disappear()" *transloco="let t">
+      {{ t("cookie.button1") }}
+    </button>
+    <button (click)="disappear()" *transloco="let t">
+      {{ t("cookie.button2") }}
+    </button>
+  </div>
+</div>

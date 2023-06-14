@@ -1,0 +1,33 @@
+{
+  "about": {
+    "title": "About",
+    "p1": "Welcome to my portfolio! I am a passionate programmer specializing in Python and C# backend development. With extensive experience in Python and C#, I have developed robust backend systems for various projects.",
+    "p2": "Python is my go-to language for building applications due to its simplicity and versatility. I leverage its strengths and extensive libraries to create scalable and maintainable code.",
+    "p3": "In addition to Python, I have a strong command over C# for backend development. Feel free to explore my portfolio and examples of my work. Let's create something amazing together!"
+  },
+  "cookie": {
+    "p": "Website uses cookies to provide a better user experience",
+    "button1": "Accept",
+    "button2": "Decline"
+  },
+  "header": {
+    "motto": "Embrace the logic, embrace the code",
+    "info1": "programming languages",
+    "info2": "projects",
+    "info3": "year of IT studies"
+  },
+  "navigation": {
+    "link1": "Embrace the logic, embrace the code",
+    "link2": "Socials",
+    "link3": "About",
+    "link4": "Web projects"
+  },
+  "project": {
+    "title": "Web projects"
+  },
+  "social": {
+    "name": "Name:",
+    "base": "Based in:",
+    "city": "Warsaw"
+  }
+}

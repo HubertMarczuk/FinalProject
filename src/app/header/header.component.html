@@ -1,31 +1,21 @@
 <div class="container-global">
-  <header class="header">
-    <h2>Embrace the logic, embrace the code</h2>
-    <!-- <div class="email-link-wrapper">
-      <a
-        href="mailto:hubert.marczuk1@gmail.com"
-        class="email-link"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Hire me</a
-      >
-    </div> -->
+  <header class="header" id="header">
+    <h2 *transloco="let t">{{ t("header.motto") }}</h2>
     <div class="boxes">
       <div class="box">
         <h3>3+</h3>
-        <p>programming languages</p>
+        <p *transloco="let t">{{ t("header.info1") }}</p>
       </div>
 
       <div class="box">
         <h3>8+</h3>
-        <p>projects</p>
+        <p *transloco="let t">{{ t("header.info2") }}</p>
       </div>
 
       <div class="box">
         <h3>3</h3>
-        <p>year of IT studies</p>
+        <p *transloco="let t">{{ t("header.info3") }}</p>
       </div>
     </div>
   </header>
-  <div></div>
 </div>

@@ -17,6 +17,7 @@
   position: relative;
   z-index: 0;
   overflow: hidden;
+  display: block;
 }
 
 .wrapper {
@@ -27,6 +28,8 @@
 .wrapper a {
   overflow: hidden;
   border-radius: var(--rounded);
+  z-index: 0;
+  display: block;
 }
 
 @media (min-width: 640px) {
@@ -44,10 +47,13 @@
 
   .image {
     height: 100%;
+    z-index: 0;
   }
 
   .wrapper a {
     max-width: 20rem;
     max-height: 20rem;
+    z-index: 0;
+    display: block;
   }
 }

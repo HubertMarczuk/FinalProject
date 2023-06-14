@@ -1,5 +1,10 @@
 .nav-mobile {
   display: block;
+  position: sticky;
+  top: 1rem;
+  z-index: 2;
+  box-shadow: 0 0 1rem var(--background-color);
+  border-radius: var(--rounded);
 }
 
 .nav-desktop {

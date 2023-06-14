@@ -7,6 +7,10 @@ import { SocialComponent } from './social/social.component';
 import { AboutComponent } from './about/about.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
+import { CommonModule } from '@angular/common';
+import { CookieComponent } from './cookie/cookie.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TranslocoRootModule } from './transloco-root.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +19,11 @@ import { ProjectComponent } from './project/project.component';
     SocialComponent,
     AboutComponent,
     HeaderComponent,
-    ProjectComponent
+    ProjectComponent,
+    CookieComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, CommonModule, HttpClientModule, TranslocoRootModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
